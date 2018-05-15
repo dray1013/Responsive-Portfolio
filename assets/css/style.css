@@ -1,0 +1,166 @@
+/*framework*/
+
+.title{font-size: 40px;
+       font-family: 'Georgia', Times, Times New Roman, serif;
+       color: white;
+       width: 225px;
+       padding: 20px;
+       background-color:#4aaaa5;
+       margin: 0;}
+
+body .top{background-color: white;
+      position: absolute;
+      height: 86px;
+      width: 100%;
+      z-index: -1;  
+      border-bottom-style: solid;
+      border-bottom-color:#cccccc;
+      margin: 0;}
+
+
+      nav{text-align:right;}
+
+
+nav ul {list-style-type: none;
+    margin: 0;}
+
+
+    nav  ul li{border-right:2px;
+          border-right-style: solid; 
+          border-right-color: dimgray;}
+
+
+          nav ul li a:link{color: #777777;
+             text-align: center;
+              font-size: 25px;
+              width: fit-content;
+              padding: 25px;
+              float: right;
+              text-decoration: none;}
+
+a:visited{color:#777777;}
+
+a:hover{color:#4aaaa5}
+
+
+body {background-image: url("../images/background.png");
+      margin: 0px;
+     }
+
+body h1 {color:#4aaaa5;
+         font-family: 'Georgia', Times, Times New Roman, serif;
+         text-align:left;
+         padding-left: 10px;
+         padding-bottom: 10px;
+         border-bottom-style: solid;
+         border-bottom-color:#dddddd}
+       
+    
+
+body .wrapper{ width: fit-content;
+               margin: auto;}
+
+
+
+footer{color:white;
+       font-size:10px;
+       font-weight: 100;
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color:#666666;
+       text-align: center;
+       padding-top: 40px;
+       padding-bottom: 5px;
+       border-top-style: solid;
+       border-top-width: 7px;
+       border-top-color:#4aaaa5;}
+       
+
+      /*index mods*/
+
+body img{float:left;
+            padding: 10px;}
+      
+body .wrapper .content{color:#777777;
+            font-size: 16px;
+            font-family:'Times New Roman';
+            letter-spacing: 1px;
+            line-height: 1.5;
+            width: 960px; 
+            padding-top: 0px; 
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom:20px;
+            border: 1px;
+            margin: auto;
+            background-color: white;
+            border-style:solid;
+            border-color:#dddddd;
+            margin-top: 40px;}
+       
+
+       /*portfolio mods*/  
+       body .wrapper .gallery{width: 960px;
+            overflow: hidden;
+            border: 1px;
+            margin: auto;
+            background-color: white;
+            border-style:solid;
+            border-color:#dddddd;
+            margin-top: 40px;}
+       
+body .wrapper .content .hangman{width: fit-content}
+
+body .wrapper .content .rpg{width: fit-content}
+
+body .wrapper .content .trivia{width: fit-content}
+
+body .wrapper .content .rutgers{width: fit-content}
+
+body .wrapper .content .rock{width: fit-content}
+
+/*contact mods*/
+body .wrapper .form{color:#777777;
+font-size: 16px;
+font-family:'Times New Roman';
+letter-spacing: 1px;
+line-height: 1.5;
+width: 960px; 
+padding-top: 0px; 
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom:20px;
+border: 1px;
+margin: auto;
+background-color: white;
+border-style:solid;
+border-color:#dddddd;
+margin-top: 40px;}
+
+
+
+@media screen and (max-width: 960px){
+      .title {
+            color:red;
+           
+      }
+}
+
+@media screen and (max-width: 768px){
+      
+}
+
+@media screen and (max-width: 640px){
+       .title {
+            background-color:red;
+           
+      }
+}
+
+@media only screen and (max-width: 600px) {
+      body {
+          background-color:black;
+      }
+  }
